@@ -1,0 +1,16 @@
+vize = float(input("Vize Notu Giriniz: "))
+final = float(input("Final Notu Giriniz: "))
+
+t = vize * 0.4 + final * 0.6
+print("Ortalama:", t)
+
+if t >= 90:
+    print("Harf Notunuz AA")
+elif t >= 80:
+    print("Harf Notunuz BB")
+elif t >= 70:
+    print("Harf Notunuz CC")
+elif t >= 60:
+    print("Harf Notunuz DD")
+else:
+    print("Harf Notunuz FF")
